@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeo Online Store</title>
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <img src="assets/logo.png" class="logo">
+        <h1>Zeo Online Store</h1>
+        <p class="trusted"><i class="fa-solid fa-check"></i> Trusted Site</p>
+    </header>
+
+    <!-- SEARCH BOX -->
+    <div class="search-box">
+        <input type="text" placeholder="Search products...">
+    </div>
+
+    <!-- MARQUEE TEXT -->
+    <div class="top-slide-text">
+        <marquee>Online Store — আমাদের সেরা ২৪ ঘন্টা পাবেন</marquee>
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider">
+        <div class="slides">
+            <img src="assets/images/slider1.jpg" class="slide">
+            <img src="assets/images/slider2.jpg" class="slide">
+            <img src="assets/images/slider3.jpg" class="slide">
+            <img src="assets/images/slider4.jpg" class="slide">
+        </div>
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <h2 class="section-title">Products</h2>
+
+    <div class="products" id="productList">
+        <!-- Firebase থেকে Product আসবে -->
+    </div>
+
+
+    <!-- BOTTOM NAVIGATION -->
+    <div class="bottom-nav">
+    
+        <div class="nav-item">
+            <i class="fa-solid fa-headset"></i>
+            <span>Support</span>
+        </div>
+
+        <div class="nav-item active">
+            <i class="fa-solid fa-house"></i>
+            <span>Main</span>
+        </div>
+
+        <div class="nav-item">
+            <i class="fa-solid fa-comments"></i>
+            <span>Message</span>
+        </div>
+
+        <div class="nav-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </div>
+
+    </div>
+
+    <!-- SCRIPT -->
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>
