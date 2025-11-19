@@ -4,29 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
-
-    <!-- Admin CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
 
     <h1>Add New Product</h1>
 
     <div class="form">
-        <!-- ID FIXED for admin.js -->
         <input type="text" id="name" placeholder="Product Title">
-
         <input type="text" id="price" placeholder="Product Price">
-
-        <input type="text" id="img" placeholder="Image URL (i.imgur.com/xxxxx.png)">
-        
+        <input type="text" id="img" placeholder="i.imgur.com image (abc123.png)">
         <button id="addBtn">Add Product</button>
     </div>
 
     <h2>Product List</h2>
     <div id="productList"></div>
 
-    <!-- Firebase + Admin Script -->
     <script type="module" src="admin.js"></script>
 
 </body>
