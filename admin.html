@@ -13,14 +13,18 @@
     <h1>Add New Product</h1>
 
     <div class="form">
-        <input type="text" id="title" placeholder="Product Title">
+        <!-- ID FIXED for admin.js -->
+        <input type="text" id="name" placeholder="Product Title">
 
         <input type="text" id="price" placeholder="Product Price">
 
-        <input type="text" id="image" placeholder="Image URL (https://i.imgur.com/xxxxx.png)">
-
+        <input type="text" id="img" placeholder="Image URL (i.imgur.com/xxxxx.png)">
+        
         <button id="addBtn">Add Product</button>
     </div>
+
+    <h2>Product List</h2>
+    <div id="productList"></div>
 
     <!-- Firebase + Admin Script -->
     <script type="module" src="admin.js"></script>
